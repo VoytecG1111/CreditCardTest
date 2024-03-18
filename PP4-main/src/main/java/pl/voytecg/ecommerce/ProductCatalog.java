@@ -1,12 +1,11 @@
 package pl.voytecg.ecommerce;
 
+import java.io.File;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
-
-import static java.util.spi.ToolProvider.findFirst;
 
 public class ProductCatalog {
 
@@ -38,5 +37,10 @@ public class ProductCatalog {
     public void changePrice(String id, BigDecimal price) {
         Product loadedProduct = getProductBy(id);
         loadedProduct.changePrice(price);
+    }
+
+    public void assignImage(String id, String imageKey) {
+        Product loadedProduct = getProductBy(id);
+        loadedProduct.assignImage(imageKey);
     }
 }
