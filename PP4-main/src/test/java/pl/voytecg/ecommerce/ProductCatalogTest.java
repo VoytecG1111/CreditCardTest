@@ -49,7 +49,7 @@ public class ProductCatalogTest {
 
         catalog.changePrice(id, BigDecimal.valueOf(10.10));
 
-        Product loaded = catalog.getById(id);
+        Product loaded = catalog.getProductBy(id);
 
         assertThat(loaded.getPrice())
                 .isEqualTo(BigDecimal.valueOf(10.10));
