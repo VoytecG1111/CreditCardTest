@@ -1,6 +1,8 @@
-package pl.voytecg.ecommerce;
+package pl.voytecg.ecommerce.catalog;
 
 import org.junit.jupiter.api.Test;
+import pl.voytecg.ecommerce.catalog.Product;
+import pl.voytecg.ecommerce.catalog.ProductCatalog;
 
 import java.math.BigDecimal;
 import java.util.List;

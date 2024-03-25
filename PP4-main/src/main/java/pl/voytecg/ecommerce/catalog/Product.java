@@ -1,4 +1,4 @@
-package pl.voytecg.ecommerce;
+package pl.voytecg.ecommerce.catalog;
 
 import java.io.File;
 import java.math.BigDecimal;
@@ -37,5 +37,13 @@ public class Product {
 
     public String getImage() {
         return image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }

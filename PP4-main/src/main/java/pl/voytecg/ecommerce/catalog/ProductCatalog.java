@@ -1,6 +1,5 @@
-package pl.voytecg.ecommerce;
+package pl.voytecg.ecommerce.catalog;
 
-import java.io.File;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
